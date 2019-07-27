@@ -1,0 +1,72 @@
+processing adder
+ABC command line: "read autosave_blif/adder.blif; 
+        strash;                         
+        compress2rs;
+        drwsat; 
+        compress2rs;
+        st; dch; resyn2;
+        st; dch; resyn2;        
+	if -K 4;
+	ps;".
+
+[1;37mtop                           :[0m i/o =  256/  129  lat =    0  nd =   297  edge =    976  aig  =  1567  lev = 85
+processing bar
+ABC command line: "read autosave_blif/bar.blif; 
+        strash;                         
+        compress2rs;
+        drwsat; 
+        compress2rs;
+        st; dch; resyn2;
+        st; dch; resyn2;        
+	if -K 4;
+	ps;".
+
+[1;37mtop                           :[0m i/o =  135/  128  lat =    0  nd =  1284  edge =   4616  aig  =  4612  lev = 6
+processing cavlc
+ABC command line: "read autosave_blif/cavlc.blif; 
+        strash;                         
+        compress2rs;
+        drwsat; 
+        compress2rs;
+        st; dch; resyn2;
+        st; dch; resyn2;        
+	if -K 4;
+	ps;".
+
+[1;37mtop                           :[0m i/o =   10/   11  lat =    0  nd =   284  edge =    953  aig  =   760  lev = 6
+processing ctrl
+ABC command line: "read autosave_blif/ctrl.blif; 
+        strash;                         
+        compress2rs;
+        drwsat; 
+        compress2rs;
+        st; dch; resyn2;
+        st; dch; resyn2;        
+	if -K 4;
+	ps;".
+
+[1;37mtop                           :[0m i/o =    7/   26  lat =    0  nd =    48  edge =    149  aig  =   121  lev = 3
+processing dec
+ABC command line: "read autosave_blif/dec.blif; 
+        strash;                         
+        compress2rs;
+        drwsat; 
+        compress2rs;
+        st; dch; resyn2;
+        st; dch; resyn2;        
+	if -K 4;
+	ps;".
+
+[1;37mdec                           :[0m i/o =    8/  256  lat =    0  nd =   288  edge =    640  aig  =   352  lev = 2
+processing div
+ABC command line: "read autosave_blif/div.blif; 
+        strash;                         
+        compress2rs;
+        drwsat; 
+        compress2rs;
+        st; dch; resyn2;
+        st; dch; resyn2;        
+	if -K 4;
+	ps;".
+
+[1;37mtop                           :[0m i/o =  128/  128  lat =    0  nd =  6297  edge =  20345  aig  = 33130  lev = 1441

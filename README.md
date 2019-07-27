@@ -1,2 +1,1 @@
-# a script
-# script
+# Script
